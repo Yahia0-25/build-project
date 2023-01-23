@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="News.css">
+    <title>News</title>
+    <style>
+      body {
+        background-image: url('img/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+</head>
+<body>
+<!--navbar-->  
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="News.html">News</a>
+  <a href="Contact.html">Contact</a>
+  <a href="shop.html">Shop now</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
+
+<section class="carousel">
+    <button class="slider-button slider-button-prev" data-slide-direction="prev">&#8592</button>
+    <button class="slider-button slider-button-next" data-slide-direction="next">&#8594</button>
+        <ul class="slides">
+          <li class="slide" data-active-slide>
+            <img src="img/carousel1.jpg" alt="Image1" />
+          </li>
+          <li class="slide">
+            <img src="img/carousel2.jpg" alt="Nature Image #2" />
+          </li>
+          <li class="slide">
+            <img src="img/carousel3.jpg" alt="Nature Image #3" />
+          </li>
+        </ul>
+        <div class="slides-circles">
+          <div data-active-slide></div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+      
+      
+      
+      
+<script src="script.js"></script>
+</body>
+</html>
